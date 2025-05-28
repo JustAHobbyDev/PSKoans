@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "PS: Show-Karma",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "Show-Karma",
+      "args": [],
+      "createTemporaryIntegratedConsole": true
+    },
+    {
+      "name": "PS: Show-Karma -Meditate",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "Show-Karma",
+      "args": ["-Meditate"],
+      "createTemporaryIntegratedConsole": true
+    }
+  ]
+}
